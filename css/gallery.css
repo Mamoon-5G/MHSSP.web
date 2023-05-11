@@ -1,0 +1,20 @@
+.cards{
+    background: #333;
+    color: #fff;
+    max-width: 100%;
+}
+.cards .images img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 200px;
+    margin-top: 50px;
+    border: 2px solid #dd003d;
+}
+#show {
+    margin-top: 150px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

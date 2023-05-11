@@ -1,0 +1,30 @@
+.skills {
+  background: #35353a;
+}
+.skills .content {
+  padding: 40px 0;
+}
+.skills .skills-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills-details .text {
+  width: 50%;
+}
+.skills-details p {
+    color: #fff;
+    text-align: justify;
+    
+}
+.skills-details .text .topic{
+  border: 2px solid red;
+  padding: 10px;
+  margin: 8px;
+}
+.zeba{
+  margin-top: 100px;
+}
+.skills img{
+  border-radius: 100%;
+}
