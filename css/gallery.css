@@ -1,3 +1,13 @@
+.show{
+    display: block;
+    width: 100vw;
+    background: #333;
+    text-align: center;
+    margin-top: 200px;
+}
+.show img{
+    width: 80vw;
+}
 .cards{
     background: #333;
     color: #fff;
@@ -9,12 +19,12 @@
     border-radius: 200px;
     margin-top: 50px;
     border: 2px solid #dd003d;
+    padding: 10px;
 }
-#show {
-    margin-top: 150px;
-}
-.cards{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
+@media only screen and (max-width: 700px) {
+    .cards .images img{
+        width: 9rem;
+        height: 9rem;
+    }
+}   

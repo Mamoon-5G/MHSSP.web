@@ -27,4 +27,21 @@
 }
 .skills img{
   border-radius: 100%;
+  width: 300px;
+}
+@media only screen and (max-width: 700px) {
+  .skills{
+    width: 100vw;
+  }
+  .skills-details .text .topic {
+    width: 100%;
+  }
+  .skills-details p {
+    color: #fff;
+    text-align: justify;
+    width: 100%;
+}
+  .skills img{
+    width: 11rem;
+  }
 }
