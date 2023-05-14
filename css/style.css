@@ -332,8 +332,8 @@ section .content {
   font-family: "Poppins", sans-serif;
   transition: .4s all ease-in;
 }
-/* .card{
+.card{
   width: 9rem;
   height: 9rem;
-} */
+}
 }
