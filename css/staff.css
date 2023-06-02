@@ -10,7 +10,7 @@
   align-items: center;
 }
 .skills-details .text {
-  width: 50%;
+  min-width: 50%;
 }
 .skills-details p {
     color: #fff;
@@ -32,9 +32,16 @@
 @media only screen and (max-width: 700px) {
   .skills{
     width: 100vw;
+    display: flex;
+  }
+  .skills-details{
+    flex-direction: column-reverse;
+  }
+  .skills-details .text{
+    width: auto;
   }
   .skills-details .text .topic {
-    width: 100%;
+    max-width: 80%;
   }
   .skills-details p {
     color: #fff;
@@ -42,6 +49,6 @@
     width: 100%;
 }
   .skills img{
-    width: 11rem;
+    width: 10rem;
   }
 }
